@@ -147,7 +147,7 @@ define config.window_icon = "mod_assets/jnlogo.png"
 
 ## Custom configs ##############################################################
 
-define config.developer = False
+define config.developer = True
 define config.console = False
 define config.allow_skipping = False
 define config.skipping = False

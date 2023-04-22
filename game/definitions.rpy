@@ -26,7 +26,9 @@ init -990 python:
     JN_NATSUKI_ZORDER = 3
     JN_DECO_ZORDER = 2
     JN_LOCATION_ZORDER = 1
-
+init 100 python:
+    sys.setrecursionlimit(10**6)
+    
 define JN_NEW_YEARS_DAY = datetime.date(datetime.date.today().year, 1, 1)
 define JN_VALENTINES_DAY = datetime.date(datetime.date.today().year, 2, 14)
 define JN_EASTER = datetime.date(_easter.year, _easter.month, _easter.day)
@@ -638,7 +640,7 @@ init -3 python:
         if not silent:
             if jn_is_day():
                 renpy.play("mod_assets/buttons/sounds/button_click_day.ogg")
-            
+
             else:
                 renpy.play("mod_assets/buttons/sounds/button_click_night.ogg")
 

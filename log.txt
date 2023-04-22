@@ -1,0 +1,84 @@
+Wed Apr 12 15:36:36 2023
+Windows-10-10.0.19044
+Ren'Py 8.0.3.22090809
+ 
+
+Bootstrap to the start of init.init took 0.06s
+Early init took 0.00s
+Loader init took 0.25s
+Loading error handling took 0.06s
+Loading script took 1.13s
+Loading save slot metadata. took 0.03s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\work\\renpy-8.0.3-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.44s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.05s
+Index archives took 0.00s
+Dump and make backups. took 0.24s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.07s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.20s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'Radeon RX 580 Series'
+Version: b'4.6.0 Compatibility Profile Context 22.11.2.221130'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1858, 1057) drawable=(1858, 1057)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script-ch30.rpy", line 238, in script call
+    call call_next_topic
+  File "game/script-ch30.rpy", line 333, in script call
+    call expression _topic
+  File "game/script-greetings.rpy", line 992, in script call
+    extend 4ulrsssbr " Hey,{w=0.2} [player]!"
+  File "game/script-ch30.rpy", line 800, in script
+    python:
+  File "C:\work\renpy-8.0.3-sdk\renpy\ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\work\renpy-8.0.3-sdk\renpy\python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script-ch30.rpy", line 801, in <module>
+    Natsuki.percentageAffinityLoss(2)
+  File "game/natsuki.rpy", line 319, in percentageAffinityLoss
+    jn_utils.log("416666696e6974792d".decode("hex"))
+AttributeError: 'str' object has no attribute 'decode'
+
+While running game code:
+  File "game/script-ch30.rpy", line 238, in script call
+    call call_next_topic
+  File "game/script-ch30.rpy", line 333, in script call
+    call expression _topic
+  File "game/script-greetings.rpy", line 992, in script call
+    extend 4ulrsssbr " Hey,{w=0.2} [player]!"
+  File "game/script-ch30.rpy", line 800, in script
+    python:
+  File "game/script-ch30.rpy", line 801, in <module>
+    Natsuki.percentageAffinityLoss(2)
+  File "game/natsuki.rpy", line 319, in percentageAffinityLoss
+    jn_utils.log("416666696e6974792d".decode("hex"))
+AttributeError: 'str' object has no attribute 'decode'

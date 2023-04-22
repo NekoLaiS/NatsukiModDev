@@ -9,32 +9,32 @@ init python in jn_activity:
     import store
     import store.jn_globals as jn_globals
     import store.jn_utils as jn_utils
-    
+
     ACTIVITY_SYSTEM_ENABLED = True
     LAST_ACTIVITY = None
 
-    if renpy.windows:
-        from plyer import notification
-        import pygetwindow
-        sys.path.append(renpy.config.gamedir + '\\python-packages\\')
-        import win32api
-        import win32gui
+    # if renpy.windows:
+    #     from plyer import notification
+    #    import pygetwindow
+    #    sys.path.append(renpy.config.gamedir + '\\python-packages\\')
+    #    import win32api
+    #    import win32gui
 
-    elif renpy.linux:
-        import os
+    # elif renpy.linux:
+    #    import os
+    #
+    #    #NOTE: On linux, there are different types of desktop sessions. Xlib will ONLY work with X11 sessions.
+    #    if (os.environ.get('DISPLAY') is None) or (os.environ.get('DISPLAY') == ''):
+    #        store.jn_utils.log("DISPLAY is not set. Cannot use Xlib.")
+    #        #Set a flag indicating this should be disabled.
+    #        ACTIVITY_SYSTEM_ENABLED = False
 
-        #NOTE: On linux, there are different types of desktop sessions. Xlib will ONLY work with X11 sessions.
-        if (os.environ.get('DISPLAY') is None) or (os.environ.get('DISPLAY') == ''):
-            store.jn_utils.log("DISPLAY is not set. Cannot use Xlib.")
-            #Set a flag indicating this should be disabled.
-            ACTIVITY_SYSTEM_ENABLED = False
+    #    else:
+    #        import Xlib
+    #        import Xlib.display
 
-        else:
-            import Xlib
-            import Xlib.display
-
-    elif renpy.macintosh:
-        ACTIVITY_SYSTEM_ENABLED = False
+    #elif renpy.macintosh:
+    #    ACTIVITY_SYSTEM_ENABLED = False
 
     class JNWindowFoundException(Exception):
         """
@@ -110,7 +110,7 @@ init python in jn_activity:
                 return renpy.substitute(random.choice(self.notify_text))
 
             return None
-    
+
     class JNActivityManager:
         """
         Management class for handling activities.
@@ -425,13 +425,13 @@ init python in jn_activity:
         """
         Gets the title of the currently active window.
 
-        IN: 
+        IN:
             - delay - int amount of seconds to wait before checking window
 
         OUT:
             - str representing the title of the currently active window
         """
-        global ACTIVITY_SYSTEM_ENABLED 
+        global ACTIVITY_SYSTEM_ENABLED
         if ACTIVITY_SYSTEM_ENABLED:
             if delay is not 0:
                 store.jnPause(delay, hard=True)
@@ -489,8 +489,9 @@ init python in jn_activity:
             - flash_count - The amount of times to flash the icon before the icon remains in a lit state
             - flash_frequency_milliseconds - The amount of time to wait between each flash, in milliseconds
         """
-        if renpy.windows:
-            win32gui.FlashWindowEx(_getJNWindowHwnd(), 6, flash_count, flash_frequency_milliseconds)
+        #if renpy.windows:
+        #    win32gui.FlashWindowEx(_getJNWindowHwnd(), 6, flash_count, flash_frequency_milliseconds)
+        return 0
 
     def notifyPopup(message):
         """

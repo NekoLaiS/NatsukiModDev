@@ -1,0 +1,365 @@
+
+==============================================================================
+
+Wed Apr 12 13:04:55 2023
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Just Natsuki 1.1.1
+
+[2023-04-12 13:04:55.058000] [INFO]: Current persisted version pre-mig check: 1.0.0
+[2023-04-12 13:04:55.059000] [INFO]: runInitMigrations START
+[2023-04-12 13:04:55.059000] [INFO]: Migration to 1.0.1 START
+[2023-04-12 13:04:55.066000] [INFO]: Migration to 1.0.1 DONE
+[2023-04-12 13:04:55.066000] [INFO]: Migration to 1.0.2 START
+[2023-04-12 13:04:55.073000] [INFO]: Migration to 1.0.2 DONE
+[2023-04-12 13:04:55.073000] [INFO]: Migration to 1.0.3 START
+[2023-04-12 13:04:55.079000] [INFO]: Migration to 1.0.3 DONE
+[2023-04-12 13:04:55.079000] [INFO]: Migration to 1.1.0 START
+[2023-04-12 13:04:55.079000] [INFO]: Migrated: store.persistent._event_database["event_not_ready_yet"]["conditional"]
+[2023-04-12 13:04:55.086000] [INFO]: Migration to 1.1.0 DONE
+[2023-04-12 13:04:55.086000] [INFO]: Migration to 1.1.1 START
+[2023-04-12 13:04:55.092000] [INFO]: Migration to 1.1.1 DONE
+[2023-04-12 13:04:58.049000] [INFO]: runRuntimeMigrations START
+[2023-04-12 13:04:58.049000] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 13:04:58.050000] [INFO]: Daily affinity cap reset; new cap is:7.42508111339
+[2023-04-12 13:04:58.051000] [INFO]: Holiday completion states reset.
+[2023-04-12 13:04:58.051000] [INFO]: Outfit data loaded.
+[2023-04-12 13:04:58.051000] [INFO]: Outfit set.
+[2023-04-12 13:04:58.052000] [INFO]: Poem data loaded.
+[2023-04-12 13:04:58.052000] [INFO]: Holiday data loaded.
+[2023-04-12 13:04:58.052000] [INFO]: Joke data loaded.
+[2023-04-12 13:14:20.645000] [INFO]: Affinity-
+
+==============================================================================
+
+Wed Apr 12 13:14:24 2023
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Just Natsuki 1.1.1
+
+[2023-04-12 13:14:24.653000] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 13:14:24.653000] [INFO]: runInitMigrations START
+[2023-04-12 13:14:27.176000] [INFO]: runRuntimeMigrations START
+[2023-04-12 13:14:27.176000] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 13:14:27.178000] [INFO]: Outfit data loaded.
+[2023-04-12 13:14:27.178000] [INFO]: Outfit set.
+[2023-04-12 13:14:27.178000] [INFO]: Poem data loaded.
+[2023-04-12 13:14:27.178000] [INFO]: Holiday data loaded.
+[2023-04-12 13:14:27.179000] [INFO]: Joke data loaded.
+[2023-04-12 13:17:04.534000] [INFO]: Affinity-
+
+==============================================================================
+
+Wed Apr 12 13:17:13 2023
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Just Natsuki 1.1.1
+
+[2023-04-12 13:17:13.712000] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 13:17:13.713000] [INFO]: runInitMigrations START
+[2023-04-12 13:17:15.918000] [INFO]: runRuntimeMigrations START
+[2023-04-12 13:17:15.919000] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 13:17:15.921000] [INFO]: Outfit data loaded.
+[2023-04-12 13:17:15.921000] [INFO]: Outfit set.
+[2023-04-12 13:17:15.921000] [INFO]: Poem data loaded.
+[2023-04-12 13:17:15.921000] [INFO]: Holiday data loaded.
+[2023-04-12 13:17:15.921000] [INFO]: Joke data loaded.
+[2023-04-12 13:17:22.502000] [INFO]: Affinity-
+
+==============================================================================
+
+Wed Apr 12 13:17:27 2023
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Just Natsuki 1.1.1
+
+[2023-04-12 13:17:27.274000] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 13:17:27.275000] [INFO]: runInitMigrations START
+
+==============================================================================
+
+Wed Apr 12 13:26:12 2023
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Just Natsuki 1.1.1
+
+[2023-04-12 13:26:12.282000] [INFO]: Current persisted version pre-mig check: 0.0.1
+[2023-04-12 13:26:12.282000] [INFO]: runInitMigrations START
+[2023-04-12 13:26:12.282000] [INFO]: Migration to 1.0.0 START
+[2023-04-12 13:26:12.283000] [INFO]: Migrated: store.persistent._apology_database
+[2023-04-12 13:26:12.283000] [INFO]: Migrated: store.persistent._topic_database["talk_i_love_you"]["conditional"]
+[2023-04-12 13:26:12.283000] [INFO]: Migrated: store.persistent._topic_database["talk_mod_contributions"]["conditional"]
+[2023-04-12 13:26:12.290000] [INFO]: Migration to 1.0.0 DONE
+[2023-04-12 13:26:12.290000] [INFO]: Migration to 1.0.1 START
+[2023-04-12 13:26:12.297000] [INFO]: Migration to 1.0.1 DONE
+[2023-04-12 13:26:12.297000] [INFO]: Migration to 1.0.2 START
+[2023-04-12 13:26:12.303000] [INFO]: Migration to 1.0.2 DONE
+[2023-04-12 13:26:12.303000] [INFO]: Migration to 1.0.3 START
+[2023-04-12 13:26:12.309000] [INFO]: Migration to 1.0.3 DONE
+[2023-04-12 13:26:12.310000] [INFO]: Migration to 1.1.0 START
+[2023-04-12 13:26:12.310000] [INFO]: Migrated: store.persistent._event_database["event_not_ready_yet"]["conditional"]
+[2023-04-12 13:26:12.316000] [INFO]: Migration to 1.1.0 DONE
+[2023-04-12 13:26:12.316000] [INFO]: Migration to 1.1.1 START
+[2023-04-12 13:26:12.322000] [INFO]: Migration to 1.1.1 DONE
+[2023-04-12 13:29:04.478000] [INFO]: Affinity+
+
+==============================================================================
+
+Wed Apr 12 13:32:54 2023
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Just Natsuki 1.1.1
+
+[2023-04-12 13:32:54.022000] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 13:32:54.023000] [INFO]: runInitMigrations START
+[2023-04-12 13:32:57.027000] [INFO]: runRuntimeMigrations START
+[2023-04-12 13:32:57.027000] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 13:32:57.030000] [INFO]: Outfit data loaded.
+[2023-04-12 13:32:57.030000] [INFO]: Outfit set.
+[2023-04-12 13:32:57.030000] [INFO]: Poem data loaded.
+[2023-04-12 13:32:57.030000] [INFO]: Holiday data loaded.
+[2023-04-12 13:32:57.030000] [INFO]: Joke data loaded.
+
+==============================================================================
+
+Wed Apr 12 13:39:03 2023
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Just Natsuki 1.1.1
+
+[2023-04-12 13:39:03.609000] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 13:39:03.610000] [INFO]: runInitMigrations START
+
+==============================================================================
+
+Wed Apr 12 13:59:37 2023
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Just Natsuki 1.1.1
+
+[2023-04-12 13:59:37.459000] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 13:59:37.460000] [INFO]: runInitMigrations START
+
+==============================================================================
+
+Wed Apr 12 13:59:50 2023
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Just Natsuki 1.1.1
+
+[2023-04-12 13:59:50.902000] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 13:59:50.903000] [INFO]: runInitMigrations START
+
+==============================================================================
+
+Wed Apr 12 14:04:48 2023
+Windows-8-6.2.9200
+Ren'Py 6.99.12.4.2187
+Just Natsuki 1.1.1
+
+[2023-04-12 14:04:48.113000] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 14:04:48.114000] [INFO]: runInitMigrations START
+[2023-04-12 14:04:50.500000] [INFO]: runRuntimeMigrations START
+[2023-04-12 14:04:50.500000] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 14:04:50.502000] [INFO]: Outfit data loaded.
+[2023-04-12 14:04:50.502000] [INFO]: Outfit set.
+[2023-04-12 14:04:50.502000] [INFO]: Poem data loaded.
+[2023-04-12 14:04:50.502000] [INFO]: Holiday data loaded.
+[2023-04-12 14:04:50.502000] [INFO]: Joke data loaded.
+[2023-04-12 14:24:14.843000] [INFO]: Affinity+
+
+==============================================================================
+
+Wed Apr 12 14:41:41 2023
+Windows-10-10.0.19044
+Ren'Py 8.0.3.22090809
+Just Natsuki 1.1.1
+
+[2023-04-12 14:41:41.775307] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 14:41:41.776298] [INFO]: runInitMigrations START
+[2023-04-12 14:41:45.135598] [INFO]: runRuntimeMigrations START
+[2023-04-12 14:41:45.135598] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 14:43:30.244799] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 14:43:30.244799] [INFO]: runInitMigrations START
+[2023-04-12 14:43:31.190735] [INFO]: runRuntimeMigrations START
+[2023-04-12 14:43:31.190735] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 14:43:31.191736] [INFO]: Outfit data loaded.
+[2023-04-12 14:43:31.191736] [INFO]: Outfit set.
+[2023-04-12 14:43:31.191736] [INFO]: Poem data loaded.
+[2023-04-12 14:43:31.191736] [INFO]: Holiday data loaded.
+[2023-04-12 14:43:31.191736] [INFO]: Joke data loaded.
+[2023-04-12 14:44:49.225821] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 14:44:49.225821] [INFO]: runInitMigrations START
+[2023-04-12 14:44:50.212756] [INFO]: runRuntimeMigrations START
+[2023-04-12 14:44:50.212756] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 14:44:50.213757] [INFO]: Outfit data loaded.
+[2023-04-12 14:44:50.213757] [INFO]: Outfit set.
+[2023-04-12 14:44:50.213757] [INFO]: Poem data loaded.
+[2023-04-12 14:44:50.213757] [INFO]: Holiday data loaded.
+[2023-04-12 14:44:50.213757] [INFO]: Joke data loaded.
+[2023-04-12 14:51:58.864285] [INFO]: Failed to identify activity: NameError("name 'pygetwindow' is not defined"). Disabling activity system for session.
+[2023-04-12 14:54:34.576884] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 14:54:34.577886] [INFO]: runInitMigrations START
+[2023-04-12 14:55:32.352639] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 14:55:32.352639] [INFO]: runInitMigrations START
+
+==============================================================================
+
+Wed Apr 12 14:56:11 2023
+Windows-10-10.0.19044
+Ren'Py 8.0.3.22090809
+Just Natsuki 1.1.1
+
+[2023-04-12 14:56:11.601491] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 14:56:11.602492] [INFO]: runInitMigrations START
+[2023-04-12 14:56:14.641525] [INFO]: runRuntimeMigrations START
+[2023-04-12 14:56:14.641525] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 14:56:14.641525] [INFO]: Outfit data loaded.
+[2023-04-12 14:56:14.642525] [INFO]: Outfit set.
+[2023-04-12 14:56:14.642525] [INFO]: Poem data loaded.
+[2023-04-12 14:56:14.642525] [INFO]: Holiday data loaded.
+[2023-04-12 14:56:14.642525] [INFO]: Joke data loaded.
+
+==============================================================================
+
+Wed Apr 12 14:57:25 2023
+Windows-10-10.0.19044
+Ren'Py 8.0.3.22090809
+Just Natsuki 1.1.1
+
+[2023-04-12 14:57:25.344151] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 14:57:25.345153] [INFO]: runInitMigrations START
+[2023-04-12 14:57:28.028262] [INFO]: runRuntimeMigrations START
+[2023-04-12 14:57:28.028262] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 14:57:28.028262] [INFO]: Outfit data loaded.
+[2023-04-12 14:57:28.029263] [INFO]: Outfit set.
+[2023-04-12 14:57:28.029263] [INFO]: Poem data loaded.
+[2023-04-12 14:57:28.029263] [INFO]: Holiday data loaded.
+[2023-04-12 14:57:28.029263] [INFO]: Joke data loaded.
+[2023-04-12 15:01:14.508393] [INFO]: Failed to identify activity: NameError("name 'pygetwindow' is not defined"). Disabling activity system for session.
+
+==============================================================================
+
+Wed Apr 12 15:09:23 2023
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
+Just Natsuki 1.1.1
+
+[2023-04-12 15:09:23.308693] [INFO]: Current persisted version pre-mig check: 0.0.1
+[2023-04-12 15:09:23.308693] [INFO]: runInitMigrations START
+[2023-04-12 15:09:23.308693] [INFO]: Migration to 1.0.0 START
+[2023-04-12 15:09:23.309685] [INFO]: Migrated: store.persistent._apology_database
+[2023-04-12 15:09:23.309685] [INFO]: Migrated: store.persistent._topic_database["talk_i_love_you"]["conditional"]
+[2023-04-12 15:09:23.309685] [INFO]: Migrated: store.persistent._topic_database["talk_mod_contributions"]["conditional"]
+[2023-04-12 15:09:23.314699] [INFO]: Migration to 1.0.0 DONE
+[2023-04-12 15:09:23.314699] [INFO]: Migration to 1.0.1 START
+[2023-04-12 15:09:23.320704] [INFO]: Migration to 1.0.1 DONE
+[2023-04-12 15:09:23.320704] [INFO]: Migration to 1.0.2 START
+[2023-04-12 15:09:23.326700] [INFO]: Migration to 1.0.2 DONE
+[2023-04-12 15:09:23.326700] [INFO]: Migration to 1.0.3 START
+[2023-04-12 15:09:23.332715] [INFO]: Migration to 1.0.3 DONE
+[2023-04-12 15:09:23.332715] [INFO]: Migration to 1.1.0 START
+[2023-04-12 15:09:23.332715] [INFO]: Migrated: store.persistent._event_database["event_not_ready_yet"]["conditional"]
+[2023-04-12 15:09:23.339710] [INFO]: Migration to 1.1.0 DONE
+[2023-04-12 15:09:23.339710] [INFO]: Migration to 1.1.1 START
+[2023-04-12 15:09:23.345718] [INFO]: Migration to 1.1.1 DONE
+
+==============================================================================
+
+Wed Apr 12 15:09:40 2023
+Windows-10-10.0.19041
+Ren'Py 7.4.11.2266
+Just Natsuki 1.1.1
+
+[2023-04-12 15:09:40.956566] [INFO]: Current persisted version pre-mig check: 0.0.1
+[2023-04-12 15:09:40.957567] [INFO]: runInitMigrations START
+[2023-04-12 15:09:40.957567] [INFO]: Migration to 1.0.0 START
+[2023-04-12 15:09:40.957567] [INFO]: Migrated: store.persistent._apology_database
+[2023-04-12 15:09:40.957567] [INFO]: Migrated: store.persistent._topic_database["talk_i_love_you"]["conditional"]
+[2023-04-12 15:09:40.957567] [INFO]: Migrated: store.persistent._topic_database["talk_mod_contributions"]["conditional"]
+[2023-04-12 15:09:40.963574] [INFO]: Migration to 1.0.0 DONE
+[2023-04-12 15:09:40.963574] [INFO]: Migration to 1.0.1 START
+[2023-04-12 15:09:40.968587] [INFO]: Migration to 1.0.1 DONE
+[2023-04-12 15:09:40.969589] [INFO]: Migration to 1.0.2 START
+[2023-04-12 15:09:40.974583] [INFO]: Migration to 1.0.2 DONE
+[2023-04-12 15:09:40.974583] [INFO]: Migration to 1.0.3 START
+[2023-04-12 15:09:40.979588] [INFO]: Migration to 1.0.3 DONE
+[2023-04-12 15:09:40.980589] [INFO]: Migration to 1.1.0 START
+[2023-04-12 15:09:40.980589] [INFO]: Migrated: store.persistent._event_database["event_not_ready_yet"]["conditional"]
+[2023-04-12 15:09:40.985593] [INFO]: Migration to 1.1.0 DONE
+[2023-04-12 15:09:40.985593] [INFO]: Migration to 1.1.1 START
+[2023-04-12 15:09:40.991599] [INFO]: Migration to 1.1.1 DONE
+
+==============================================================================
+
+Wed Apr 12 15:09:56 2023
+Windows-10-10.0.19044
+Ren'Py 8.0.3.22090809
+Just Natsuki 1.1.1
+
+[2023-04-12 15:09:56.132514] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 15:09:56.132514] [INFO]: runInitMigrations START
+[2023-04-12 15:09:59.080000] [INFO]: runRuntimeMigrations START
+[2023-04-12 15:09:59.080000] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 15:09:59.081001] [INFO]: Outfit data loaded.
+[2023-04-12 15:09:59.081001] [INFO]: Outfit set.
+[2023-04-12 15:09:59.081001] [INFO]: Poem data loaded.
+[2023-04-12 15:09:59.081001] [INFO]: Holiday data loaded.
+[2023-04-12 15:09:59.081001] [INFO]: Joke data loaded.
+[2023-04-12 15:10:01.596816] [INFO]: Failed to identify activity: NameError("name 'pygetwindow' is not defined"). Disabling activity system for session.
+
+==============================================================================
+
+Wed Apr 12 15:30:25 2023
+Windows-10-10.0.19044
+Ren'Py 8.0.3.22090809
+Just Natsuki 1.1.1
+
+[2023-04-12 15:30:25.525693] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 15:30:25.525693] [INFO]: runInitMigrations START
+[2023-04-12 15:30:28.520232] [INFO]: runRuntimeMigrations START
+[2023-04-12 15:30:28.520232] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 15:30:28.521233] [INFO]: Outfit data loaded.
+[2023-04-12 15:30:28.521233] [INFO]: Outfit set.
+[2023-04-12 15:30:28.521233] [INFO]: Poem data loaded.
+[2023-04-12 15:30:28.521233] [INFO]: Holiday data loaded.
+[2023-04-12 15:30:28.521233] [INFO]: Joke data loaded.
+[2023-04-12 15:31:03.205962] [INFO]: Failed to identify activity: NameError("name 'pygetwindow' is not defined"). Disabling activity system for session.
+[2023-04-12 15:33:58.072295] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 15:33:58.072295] [INFO]: runInitMigrations START
+
+==============================================================================
+
+Wed Apr 12 15:34:14 2023
+Windows-10-10.0.19044
+Ren'Py 8.0.3.22090809
+Just Natsuki 1.1.1
+
+[2023-04-12 15:34:14.531163] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 15:34:14.532164] [INFO]: runInitMigrations START
+[2023-04-12 15:34:17.565738] [INFO]: runRuntimeMigrations START
+[2023-04-12 15:34:17.565738] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 15:34:17.565738] [INFO]: Outfit data loaded.
+[2023-04-12 15:34:17.565738] [INFO]: Outfit set.
+[2023-04-12 15:34:17.565738] [INFO]: Poem data loaded.
+[2023-04-12 15:34:17.566739] [INFO]: Holiday data loaded.
+[2023-04-12 15:34:17.566739] [INFO]: Joke data loaded.
+[2023-04-12 15:36:21.325029] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 15:36:21.325029] [INFO]: runInitMigrations START
+
+==============================================================================
+
+Wed Apr 12 15:36:38 2023
+Windows-10-10.0.19044
+Ren'Py 8.0.3.22090809
+Just Natsuki 1.1.1
+
+[2023-04-12 15:36:38.140571] [INFO]: Current persisted version pre-mig check: 1.1.1
+[2023-04-12 15:36:38.140571] [INFO]: runInitMigrations START
+[2023-04-12 15:36:41.104949] [INFO]: runRuntimeMigrations START
+[2023-04-12 15:36:41.104949] [INFO]: Current persisted version post-mig check: 1.1.1
+[2023-04-12 15:36:41.105950] [INFO]: Outfit data loaded.
+[2023-04-12 15:36:41.105950] [INFO]: Outfit set.
+[2023-04-12 15:36:41.105950] [INFO]: Poem data loaded.
+[2023-04-12 15:36:41.105950] [INFO]: Holiday data loaded.
+[2023-04-12 15:36:41.105950] [INFO]: Joke data loaded.

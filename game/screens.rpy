@@ -31,12 +31,12 @@ screen hotkeys():
                     null height 20
                     style_prefix "hotkeys"
                     grid 2 8:
-                        xoffset 20                
+                        xoffset 20
                         spacing 10
 
                         text _("Talk")
                         text _("T")
-                        
+
                         text _("Music")
                         text _("M")
 
@@ -67,7 +67,7 @@ screen hotkeys():
                         null height 20
                         style_prefix "hotkeys"
                         grid 2 3:
-                            xoffset 20                
+                            xoffset 20
                             spacing 10
 
                             text _("Place")
@@ -121,7 +121,7 @@ style categorized_menu_button_text_italic is categorized_menu_button_text:
     italic True
 
 screen categorized_menu(menu_items, category_pane_space, option_list_space, category_length):
-    at categorized_menu_slide_in_right
+    #at categorized_menu_slide_in_right
     style_prefix "categorized_menu"
 
     #Just entered this menu so just need to list categories
@@ -1332,6 +1332,22 @@ screen preferences():
                             textbutton _("Mute All"):
                                 action Preference("all mute", "toggle")
                                 style "mute_all_button"
+                vbox:
+                    style_prefix "check"
+                    label _("Discord RPC")
+                    python:
+                        connect_status = "Disconnected"
+                        if RPC.rpc_connected:
+                            connect_status = "Connected"
+
+                    textbutton "Enable" action [ToggleField(persistent, "enable_discord"),
+                    If(persistent.enable_discord, Function(RPC.close), Function(RPC.connect, reset=True))]
+
+                text "Status: [connect_status]" style "main_menu_version" xalign 0.0
+
+                if persistent.enable_discord and not RPC.rpc_connected:
+                    textbutton "Reconnect" action Function(RPC.connect, reset=True) style "viewframe_button"
+
 
     text "v[config.version]":
                 xalign 1.0 yalign 1.0

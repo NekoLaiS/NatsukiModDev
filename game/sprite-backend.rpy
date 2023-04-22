@@ -241,7 +241,7 @@ init -50 python:
 
         # Eyes
         lc_args.extend([
-            (0, 0), "{0}/face/eyes/sitting/{1}.png".format(_JN_NATSUKI_BASE_SPRITE_PATH, eyes), 
+            (0, 0), "{0}/face/eyes/sitting/{1}.png".format(_JN_NATSUKI_BASE_SPRITE_PATH, eyes),
         ])
 
         # Tears
@@ -294,7 +294,7 @@ init -50 python:
 
         # Desk
         lc_args.extend([
-            (0, 0), _JN_NATSUKI_BASE_SPRITE_PATH + "/desk/table/{0}.png".format(_JN_TABLE_SPRITE)           
+            (0, 0), _JN_NATSUKI_BASE_SPRITE_PATH + "/desk/table/{0}.png".format(_JN_TABLE_SPRITE)
         ])
 
         if pose in _JN_AFTER_DESK_POSES:
@@ -355,7 +355,7 @@ init 1 python:
         "wl": JNEyes.wink_left,
         "wr": JNEyes.wink_right
     }
-    
+
     MOUTH_MAP = {
         "aj": JNMouth.ajar,
         "an": JNMouth.angry,
@@ -396,7 +396,7 @@ init 1 python:
         "up": JNMouth.upset,
         "wr": JNMouth.worried
     }
-    
+
     BLUSH_MAP = {
         "f": JNBlush.full,
         "l": JNBlush.light,
@@ -498,7 +498,7 @@ init 1 python:
 
                 elif exp_code[:3] in SWEAT_MAP:
                     sweat = exp_code[:3]
-                    exp_code = exp_code[3:] 
+                    exp_code = exp_code[3:]
 
                 #To avoid an infinite loop, we'll raise another ValueError to note this format is invalid
                 else:
@@ -525,7 +525,7 @@ init 1 python:
         disp = jn_generate_natsuki_sprite(**_parse_exp_code(exp_code))
 
         #Get existing attrs to append this one to the known attrs
-        _existing_attr_list = renpy.display.image.image_attributes["natsuki"]
+        _existing_attr_list = list(renpy.display.image.image_attributes["natsuki"])
 
         #Now add the displayable
         renpy.display.image.images[("natsuki", exp_code)] = disp
@@ -576,7 +576,7 @@ init 1 python:
         args = [ ]
 
         while name:
-            # Here, we are iterating through the characters of the spritecode and trying to find a 
+            # Here, we are iterating through the characters of the spritecode and trying to find a
             # pre-existing image for it to save generating every time, stopping if we find one.
             #
             # This also lets us check to make sure the narration isn't trying to use a hardcoded image
@@ -600,7 +600,7 @@ init 1 python:
 
                 #Generate
                 _generate_image(name[1])
-                
+
                 #Try to get the img again
                 target = renpy.display.image.images[name]
 
@@ -638,7 +638,7 @@ init 1 python:
 
     if Natsuki.isLove(higher=True):
         _JN_TABLE_SPRITE = "table_love"
-        
+
     elif Natsuki.isEnamored(higher=True):
         _JN_TABLE_SPRITE = "table_enamored"
 
@@ -696,7 +696,7 @@ image natsuki gaming:
         choice:
             "natsuki 1fdwcaesssbr"
             pause 3
-            
+
         choice:
             "natsuki 1fdwsssbl"
             pause 3
@@ -811,7 +811,7 @@ image natsuki thinking:
             pause 4
             "natsuki 4tcsbo"
             pause 0.1
-    
+
         choice:
             "natsuki 4tsrpu"
             pause 4
